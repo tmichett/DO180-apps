@@ -1,5 +1,4 @@
 <?php
-print "Hello, World! php version is " . PHP_VERSION . "\n";
-echo "<br>"
-print "A change is in the air! \n";
+echo nl2br("Hello, World! php version is " . PHP_VERSION . "\n");
+print "A change is in the air! \r\n";
 ?>
